@@ -28,7 +28,7 @@ export default function Article({ data }) {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${params.slug}`);
+  const res = await fetch(`${process.env.API_URL}/pokemon/${params.slug}`);
   const data = await res.json()
 
   return {
@@ -39,7 +39,7 @@ export async function getStaticProps({ params }) {
 // This function gets called at build time
 export async function getStaticPaths() {
   // Call an external API endpoint to get posts
-  const res = await fetch('https://pokeapi.co/api/v2/pokemon')
+  const res = await fetch(`${process.env.API_URL}/pokemon`)
   const data = await res.json()
 
   // Get the paths we want to pre-render based on posts

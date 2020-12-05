@@ -23,7 +23,7 @@ export default function Articles({ data }) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('https://pokeapi.co/api/v2/pokemon');
+  const res = await fetch(`${process.env.API_URL}/pokemon`);
   const data = await res.json()
 
   return {

@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "analyze": "ANALYZE=true yarn build"
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^0.21.0",
@@ -19,7 +18,5 @@
     "sharp": "^0.26.3",
     "stripe": "^8.127.0"
   },
-  "devDependencies": {
-    "@next/bundle-analyzer": "^10.0.3"
-  }
+  "devDependencies": {}
 }

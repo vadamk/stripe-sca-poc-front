@@ -1,7 +1,4 @@
 const { nextI18NextRewrites } = require('next-i18next/rewrites')
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
-})
 
 const localeSubpaths = {
   en: 'en',
@@ -12,7 +9,10 @@ module.exports = withBundleAnalyzer({
   publicRuntimeConfig: {
     localeSubpaths,
   },
-  images: {
-    domains: ['go-monday.s3.eu-north-1.amazonaws.com'],
-  }
+  env: {
+    STRIPE_SECRET_KEY: res.parsed.STRIPE_SECRET_KEY,
+    API_URL: res.parsed.API_URL,
+    API_REST_URL: res.parsed.API_REST_URL,
+    PORT: res.parsed.PORT,
+  },
 });

@@ -7,7 +7,7 @@ import Axios from 'axios'
 const Layout = dynamic(() => import('../../components/Layout'))
 const CardForm = dynamic(() => import('../../components/CardForm'))
 
-const STRIPE_TOKEN = 'pk_test_51HuebdAGirukYsQDMUE3Cr2Y72wU0YTXuFaDNpBuFmmPdWv55FiNBVIHCvRcV7xj0ptyCtluW5me8xQOc9ySTQpH00OLbrNfE9'
+const STRIPE_TOKEN = process.env.STRIPE_SECRET_KEY
 
 export default function Pay() {
   const router = useRouter()
@@ -26,7 +26,7 @@ export default function Pay() {
 
     setLoading(true)
 
-    const secretResult = await Axios.post('http://localhost:3001/payments/secret', {
+    const secretResult = await Axios.post(`${process.env.API_REST_URL}/secret`, {
       amount: 1500,
       cardType: 'card'
     })
