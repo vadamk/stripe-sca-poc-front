@@ -9,6 +9,7 @@ module.exports = withBundleAnalyzer({
   publicRuntimeConfig: {
     localeSubpaths,
   },
+  target: 'serverless',
   env: {
     STRIPE_SECRET_KEY: res.parsed.STRIPE_SECRET_KEY,
     API_URL: res.parsed.API_URL,

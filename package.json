@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "axios": "^0.21.0",
@@ -18,5 +19,7 @@
     "sharp": "^0.26.3",
     "stripe": "^8.127.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "next-on-netlify": "^2.6.3"
+  }
 }
