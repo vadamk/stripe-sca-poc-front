@@ -8,13 +8,13 @@ export default function Home() {
   const { t } = useTranslation();
 
   return (
-    <Layout>
-      <Link href="/articles">
-        <a>{t('articles.title')}</a>
+    <Layout title="POC">
+      <Link href="/pokemon">
+        <a>🦊 {t('pokemon.title')}</a>
       </Link>
       <br/>
       <Link href="/pay">
-        <a>Pay</a>
+        <a>💳 {t('pay.title')}</a>
       </Link>
     </Layout>
   );

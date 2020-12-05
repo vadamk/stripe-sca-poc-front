@@ -4,7 +4,7 @@ import { useTranslation, Link } from '../../i18n'
 
 const Layout = dynamic(() => import('../../components/Layout'))
 
-export default function Article({ data }) {
+export default function Pokemon({ data }) {
   const { t } = useTranslation();
 
   const artwork = React.useMemo(() => {
@@ -20,8 +20,8 @@ export default function Article({ data }) {
       <h1>{data?.name}</h1>
       {artwork && <img width={200} src={artwork} alt={`${data?.name} artwork`} />}
       <br/>
-      <Link href="/articles">
-        <a>🔙 {t('articles.title')}</a>
+      <Link href="/pokemon">
+        <a>🔙 {t('pokemon.title')}</a>
       </Link>
     </Layout>
   )

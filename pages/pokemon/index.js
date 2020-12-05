@@ -4,15 +4,14 @@ import { useTranslation, Link } from '../../i18n'
 
 const Layout = dynamic(() => import('../../components/Layout'))
 
-export default function Articles({ data }) {
+export default function PokemonList({ data }) {
   const { t } = useTranslation();
 
   return (
-    <Layout>
-      <h1>{t('articles.title')}</h1>
+    <Layout title={t('pokemon.title')}>
       {data.results.map(item => (
         <div key={item.name}>
-          <Link href="/articles/[slug]" as={`/articles/${item.name}`}>
+          <Link href="/pokemon/[slug]" as={`/pokemon/${item.name}`}>
             <a>{item.name}</a>
           </Link>
           <br/>

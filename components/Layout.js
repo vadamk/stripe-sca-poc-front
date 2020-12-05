@@ -4,10 +4,11 @@ import dynamic from 'next/dynamic'
 const Footer = dynamic(() => import('./Footer'))
 const Breadcrumbs = dynamic(() => import('./Breadcrumbs'))
 
-const Layout = ({ children }) => {
+const Layout = ({ title, children }) => {
 
   return (
     <>
+      {title && <h1>{title}</h1>}
       <div className="root">
         <main>
           <Breadcrumbs />
