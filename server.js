@@ -10,7 +10,7 @@ require('dotenv').config({
   path: `./.env.${process.env.ENV || 'development'}`,
 });
 
-const port = process.env.PORT || 3003;
+const port = process.env.PORT || 3000;
 const app = next({
   dev: process.env.NODE_ENV !== 'production',
 });
