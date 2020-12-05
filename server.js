@@ -1,10 +1,6 @@
 const express = require('express');
 const next = require('next');
-const fs = require('fs');
 const util = require('util');
-
-// Convert fs.readFile into Promise version of same
-const readFile = util.promisify(fs.readFile);
 
 require('dotenv').config({ path: `./.env` });
 
