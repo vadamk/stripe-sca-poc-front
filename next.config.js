@@ -8,6 +8,8 @@ const env = require('dotenv').config({
   path: '.env',
 });
 
+console.log('next,config', path.resolve('./'));
+
 module.exports = {
   rewrites: async () => nextI18NextRewrites(localeSubpaths),
   publicRuntimeConfig: {
