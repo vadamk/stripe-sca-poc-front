@@ -6,5 +6,5 @@ module.exports = new NextI18Next({
   defaultLanguage: 'sw',
   otherLanguages: ['en'],
   localeSubpaths,
-  localePath: path.resolve('/opt/build/repo/public/static/locales')
+  localePath: path.resolve('./public/static/locales')
 });
