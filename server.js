@@ -9,6 +9,8 @@ const app = next({
   dev: process.env.NODE_ENV !== 'production',
 });
 
+console.log('server process.env: ', process.env);
+
 const handle = app.getRequestHandler();
 
 (async () => {
