@@ -5,7 +5,7 @@ const localeSubpaths = {
 }
 
 const env = require('dotenv').config({
-  path: `./.env.${process.env.ENV || 'development'}`,
+  path: `./.env'}`,
 });
 
 module.exports = {
