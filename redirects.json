@@ -1,0 +1,800 @@
+{
+  "redirects": [
+    {
+      "from": "/om-oss/jobba-med-oss/marknadskoordinator",
+      "to": "http://localhost:3003/jobba-med-oss"
+    },
+    {
+      "from": "/byta-jobb/17-fragor-du-bor-stalla-dig-sjalv-infor-nyar",
+      "to": "http://localhost:3003/discovery/17-fragor-att-stalla-till-dig-sjalv-infor-nyar"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/3-satt-att-komma-igang-efter-semestern",
+      "to": "http://localhost:3003/discovery/3-satt-att-komma-igang-efter-semestern"
+    },
+    {
+      "from": "/driva-foretag/3-verktyg-som-gor-distansjobbet-enklare",
+      "to": "http://localhost:3003/discovery/3-verktyg-som-gor-distansjobbet-enklare"
+    },
+    {
+      "from": "/driva-foretag/5-utmaningar-med-distansjobb-enligt-ledare-och-anstalld",
+      "to": "http://localhost:3003/discovery/5-utmaningar-med-distansjobb-enligt-ledare-och-anstalld"
+    },
+    {
+      "from": "/byta-jobb/6-grundlaggande-principer-for-att-soka-jobb-effektivt",
+      "to": "http://localhost:3003/discovery/7-grundlaggande-principer-for-att-soka-jobb-effektivt"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/6-tips-for-att-natverka",
+      "to": "http://localhost:3003/discovery/6-tips-for-dig-som-tycker-det-ar-obekvamt-att-natverka"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/8-fragor-att-stalla-till-dig-sjalv-pa-semestern",
+      "to": "http://localhost:3003/discovery/8-fragor-att-stalla-till-dig-sjalv-pa-semestern"
+    },
+    {
+      "from": "/om-oss/referenser",
+      "to": "http://localhost:3003/referenser"
+    },
+    {
+      "from": "/byta-jobb/93-tips-for-jobb-och-karriar",
+      "to": "http://localhost:3003/discovery/93-tips-for-jobbsok-och-jobbliv"
+    },
+    {
+      "from": "/linkedin-introduktion/",
+      "to": "http://localhost:3003/discovery/guide-fa-jobb-med-linkedin"
+    },
+    {
+      "from": "/villkor",
+      "to": "http://localhost:3003/anvandarvillkor-och-integritet"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/personliga-egenskaper-far-din-ansokan-att-sticka-ut-fran-mangden",
+      "to": "http://localhost:3003/discovery/beskriv-dina-personliga-egenskaper"
+    },
+    {
+      "from": "/announcement/black-friday/",
+      "to": "http://localhost:3003/"
+    },
+    {
+      "from": "/radgivning-bolla-utmaning",
+      "to": "http://localhost:3003/tjanster/samtal-bolla-en-fraga"
+    },
+    {
+      "from": "/skriva-jobbansokan/borja-inte-varje-stycke-med-jag-i-personliga-brevet",
+      "to": "http://localhost:3003/discovery/borja-inte-varje-stycke-med-%22jag%22-i-personliga-brevet"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/bygg-ditt-varumarke-som-en-bra-chef-och-ledare",
+      "to": "http://localhost:3003/discovery/bygg-ditt-varumarke-som-en-bra-chef-och-ledare"
+    },
+    {
+      "from": "/guide/natverkande",
+      "to": "http://localhost:3003/discovery/6-tips-for-dig-som-tycker-det-ar-obekvamt-att-natverka"
+    },
+    {
+      "from": "/plattform-och-natverk",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/byta-jobb/byt-jobb-sa-mar-du-battre-och-tjanar-mer",
+      "to": "http://localhost:3003/discovery/byt-jobb-sa-mar-du-battre-och-tjanar-mer"
+    },
+    {
+      "from": "/skriva-jobbansokan/byt-ut-jobbklyschorna-var-arlig-och-konkret",
+      "to": "http://localhost:3003/discovery/byt-ut-jobbklyschorna-var-arlig-och-konkret"
+    },
+    {
+      "from": "/coaching",
+      "to": "http://localhost:3003/tjanster/samtal-coaching-for-jobblivet"
+    },
+    {
+      "from": "/byta-jobb/darfor-ar-det-ett-problem-att-vara-overkvalificerad",
+      "to": "http://localhost:3003/discovery/darfor-ar-det-ett-problem-att-vara-overkvalificerad"
+    },
+    {
+      "from": "/skriva-jobbansokan/darfor-ar-inledningen-sa-viktig-i-ditt-cv",
+      "to": "http://localhost:3003/discovery/darfor-ar-inledningen-sa-viktig-i-ditt-cv"
+    },
+    {
+      "from": "/skriva-jobbansokan/darfor-ska-du-inte-ange-alder-i-din-jobbansokan",
+      "to": "http://localhost:3003/discovery/darfor-ska-du-inte-ange-alder-i-din-jobbansokan"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/darfor-ska-du-inte-lyssna-pa-dina-vanners-rad-om-jobbliv",
+      "to": "http://localhost:3003/discovery/darfor-ska-du-inte-lyssna-pa-dina-vanners-rad-om-jobbliv"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/jobba-gratis",
+      "to": "http://localhost:3003/discovery/darfor-ska-du-jobba-gratis-eller-inte"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/de-4-karriarstilarna",
+      "to": "http://localhost:3003/discovery/de-4-utvecklingsstilarna-vilken-ar-du?"
+    },
+    {
+      "from": "/radgivning-jobbansokan",
+      "to": "http://localhost:3003/tjanster/samtal-din-jobbansokan"
+    },
+    {
+      "from": "/radgivande-samtal-utveckling",
+      "to": "http://localhost:3003/tjanster/samtal-din-utveckling"
+    },
+    {
+      "from": "/referenser/radgivning-referenser",
+      "to": "http://localhost:3003/tjanster/samtal-referenser"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/du-ska-jobba-med-de-problem-du-gar-igang-pa",
+      "to": "http://localhost:3003/discovery/att-gora-nagot-som-kanns-meningsfullt"
+    },
+    {
+      "from": "/karriarradgivning",
+      "to": "http://localhost:3003/tjanster/radvigande-samtal-med-en-jobbexpert"
+    },
+    {
+      "from": "/st/coaching/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=2100&Prd=20&Lang=Sv"
+    },
+    {
+      "from": "/st/coaching-chef/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=2100&Prd=20&Lang=Sv"
+    },
+    {
+      "from": "/vision/karriarsamtal/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=1300&Prd=20&Lang=Sv"
+    },
+    {
+      "from": "/lararforbundet/karriarsamtal/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=2200&Prd=20&Lang=Sv"
+    },
+    {
+      "from": "/st/karriarsamtal/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=2100&Prd=20&Lang=Sv"
+    },
+    {
+      "from": "/foretag/omstrukturering",
+      "to": "vd-blogg.se/individuellt-stod-i-forandring.pdf"
+    },
+    {
+      "from": "/om-oss/jobba-med-oss/trevlig-utdelare-av-kaftsmallar",
+      "to": "http://localhost:3003/jobba-med-oss"
+    },
+    {
+      "from": "/fa-linkedin-att-jobba-for-dig",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/cv/granskning-av-cv",
+      "to": "http://localhost:3003/tjanster/feedback-cv"
+    },
+    {
+      "from": "/sveriges-arkitekter/feedback-ansokan",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/personligt-brev/granskning-av-jobbansokan",
+      "to": "http://localhost:3003/tjanster/feedback-jobbansokan"
+    },
+    {
+      "from": "/affarsradgivning/granskning-konsultprofil-cv",
+      "to": "http://localhost:3003/tjanster/feedback-konsultprofil-cv"
+    },
+    {
+      "from": "/fa-linkedin-att-jobba-for-dig/granskning-av-linkedin-profil",
+      "to": "http://localhost:3003/tjanster/feedback-linkedin-profil"
+    },
+    {
+      "from": "/affarsradgivning/radgivning-linkedin",
+      "to": "http://localhost:3003/tjanster/feedback-linkedin-profil-konsult"
+    },
+    {
+      "from": "/personligt-brev/granskning-av-personligt-brev",
+      "to": "http://localhost:3003/tjanster/feedback-personligt-brev"
+    },
+    {
+      "from": "/portfolio/granskning-av-portfolio",
+      "to": "http://localhost:3003/tjanster/feedback-portfolio"
+    },
+    {
+      "from": "/om-oss/for-fackforbund",
+      "to": "http://localhost:3003/om-oss"
+    },
+    {
+      "from": "/lararforbundet/intervjuforberedelse/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=2200&Prd=30&Lang=Sv"
+    },
+    {
+      "from": "/st/intervjuforberedelse/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=2100&Prd=30&Lang=Sv"
+    },
+    {
+      "from": "/vision/intervjuforberedelse/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=1300&Prd=30&Lang=Sv"
+    },
+    {
+      "from": "/rabattkod",
+      "to": "http://localhost:3003/"
+    },
+    {
+      "from": "/presentkort",
+      "to": "http://localhost:3003/"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/get-a-job-in-sweden-things-you-need-to-know",
+      "to": "http://localhost:3003/en/discovery/get-a-job-in-sweden-things-you-need-to-know"
+    },
+    {
+      "from": "/ki/kom-igang-med-linkedin-en/",
+      "to": "https://gomonday.formstack.com/forms/4_steg_en&Ptnr=1100&Prd=40&Lang=En"
+    },
+    {
+      "from": "/linkedin-bibel",
+      "to": "http://localhost:3003/discovery/guide-fa-jobb-med-linkedin"
+    },
+    {
+      "from": "/byta-jobb/googla-chefen",
+      "to": "http://localhost:3003/discovery/googla-chefen"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/gor-det-basta-av-utvecklingssamtalet",
+      "to": "http://localhost:3003/discovery/gor-det-basta-av-utvecklingssamtalet"
+    },
+    {
+      "from": "/gor-det-mesta-av-utvecklingssamtalet-med-chefen/",
+      "to": "http://localhost:3003/tjanster/samtal-utvecklingssamtalet"
+    },
+    {
+      "from": "/ki/granskning/",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/lararforbundet/granskning/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=2200&Prd=10&Lang=Sv"
+    },
+    {
+      "from": "/st/granskning/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=2100&Prd=10&Lang=Sv"
+    },
+    {
+      "from": "/vision/granskning/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=1300&Prd=10&Lang=Sv"
+    },
+    {
+      "from": "/lararforbundet/granskning-li/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=2200&Prd=11&Lang=Sv"
+    },
+    {
+      "from": "/st/granskning-li/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=2100&Prd=11&Lang=Sv"
+    },
+    {
+      "from": "/skriva-jobbansokan/grunderna-for-en-effektiv-jobbansokan",
+      "to": "http://localhost:3003/discovery/grunderna-for-en-effektiv-jobbansokan"
+    },
+    {
+      "from": "/guide/bestam-vart-du-ar-pavag",
+      "to": "http://localhost:3003/discovery/guide-bestam-vart-du-ar-pa-vag"
+    },
+    {
+      "from": "/guide/linkedin",
+      "to": "http://localhost:3003/discovery/guide-fa-jobb-med-linkedin"
+    },
+    {
+      "from": "/guide/anstallningsintervju",
+      "to": "http://localhost:3003/discovery/guide-jobbintervjun"
+    },
+    {
+      "from": "/guide/loneforhandla",
+      "to": "http://localhost:3003/discovery/guide-loneforhandla"
+    },
+    {
+      "from": "/guide/referenser",
+      "to": "http://localhost:3003/discovery/guide-referenser"
+    },
+    {
+      "from": "/guide/cv",
+      "to": "http://localhost:3003/discovery/guide-skriv-ditt-cv"
+    },
+    {
+      "from": "/guide/personligt-brev",
+      "to": "http://localhost:3003/discovery/guide-personligt-brev"
+    },
+    {
+      "from": "/guide/sok-jobb-pa-ratt-satt",
+      "to": "http://localhost:3003/discovery/guide-sok-jobb-pa-ratt-satt"
+    },
+    {
+      "from": "/samtal-hantera-lagkonjunktur",
+      "to": "http://localhost:3003/tjanster/samtal-hantera-lagkonjunktur"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/hitta-din-grej",
+      "to": "http://localhost:3003/discovery/hitta-din-grej-for-dig-som-vill-starta-eget"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/hitta-ditt-workflow",
+      "to": "http://localhost:3003/discovery/hitta-ditt-workflow"
+    },
+    {
+      "from": "/driva-foretag/hitta-kunder-till-ditt-foretag",
+      "to": "http://localhost:3003/discovery/hitta-dina-kunder-och-na-ut-till-dem"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/sa-beskriver-du-dina-drivkrafter",
+      "to": "http://localhost:3003/discovery/hitta-och-beskriv-dina-drivkrafter"
+    },
+    {
+      "from": "/varsel",
+      "to": "http://localhost:3003/discovery/varslad-sa-har-ska-du-agera"
+    },
+    {
+      "from": "/driva-eget/",
+      "to": "http://localhost:3003/"
+    },
+    {
+      "from": "/",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/hur-vagar-jag-valja-min-egen-vag",
+      "to": "http://localhost:3003/discovery/hur-valjer-jag-min-egen-vag"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/hur-valjer-jag-mig-egen-vag",
+      "to": "http://localhost:3003/discovery/hur-valjer-jag-min-egen-vag"
+    },
+    {
+      "from": "/foretag",
+      "to": "vd-blogg.se/individuellt-stod-i-forandring.pdf"
+    },
+    {
+      "from": "/radgivning-infor-utvecklingssamtal",
+      "to": "http://localhost:3003/tjanster/samtal-utvecklingssamtalet"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/inspireras-av-din-historik-men-lat-din-potential-styra",
+      "to": "http://localhost:3003/discovery/inspireras-av-din-historik-men-lat-din-potential-styra"
+    },
+    {
+      "from": "/sveriges-arkitekter/intervjutraning",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/byta-jobb/jobba-for-staten",
+      "to": "http://localhost:3003/discovery/jobba-for-staten-vad-innebar-det"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/jobba-i-sverige-sa-funkar-det-pa-arbetsplatsen",
+      "to": "http://localhost:3003/en/discovery/work-in-sweden-the-culture-and-the-workplace"
+    },
+    {
+      "from": "/om-oss/jobba-med-oss",
+      "to": "http://localhost:3003/jobba-med-oss"
+    },
+    {
+      "from": "/announcement/julklappstips/",
+      "to": "http://localhost:3003/"
+    },
+    {
+      "from": "/skriva-jobbansokan/kann-igen-och-undvik-klyschorna-i-ditt-personliga-brev",
+      "to": "http://localhost:3003/discovery/kann-igen-och-undvik-klyschorna-i-ditt-personliga-brev"
+    },
+    {
+      "from": "/ki/",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/lararforbundet/linkedin-introduktion/",
+      "to": "https://gomonday.formstack.com/forms/4_steg_sv&Ptnr=2200&Prd=40&Lang=Sv"
+    },
+    {
+      "from": "/st/linkedin-introduktion/",
+      "to": "https://gomonday.formstack.com/forms/4_steg_sv&Ptnr=2100&Prd=40&Lang=Sv"
+    },
+    {
+      "from": "/sveriges-arkitekter/linkedin-introduktion/",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/sveriges-arkitekter/kom-igang-med-linkedin-for-dig-som-medlem-i-sveriges-arkitekter/",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/sveriges-ingenjorer/kom-igang-med-linkedin-for-dig-som-medlem-i-sveriges-ingenjorer/",
+      "to": "https://gomonday.formstack.com/forms/4_steg_sv&Ptnr=1900&Prd=40&Lang=Sv"
+    },
+    {
+      "from": "/unionen-egen/linkedin-introduktion/",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/vision/linkedin-introduktion/",
+      "to": "https://gomonday.formstack.com/forms/4_steg_sv&Ptnr=1300&Prd=40&Lang=Sv"
+    },
+    {
+      "from": "/ki/kom-igang-med-linkedin/",
+      "to": "https://gomonday.formstack.com/forms/4_steg_en&Ptnr=1100&Prd=40&Lang=Sv"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/kom-over-radslan-for-att-engagera-dig-pa-riktigt",
+      "to": "http://localhost:3003/discovery/kom-over-radslan-for-att-engagera-dig-pa-riktigt"
+    },
+    {
+      "from": "/om-oss/kontakt/",
+      "to": "http://localhost:3003/kontakta-oss"
+    },
+    {
+      "from": "/plattform-och-natverk/radgivning-natverkande",
+      "to": "http://localhost:3003/tjanster/samtal-kontakter-och-natverk"
+    },
+    {
+      "from": "/guide/nasta-steg-for-dig",
+      "to": "http://localhost:3003//tjanster/samtal-nasta-steg-i-jobblivet"
+    },
+    {
+      "from": "/lararforbundet/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=2200&Prd=10&Lang=Sv"
+    },
+    {
+      "from": "/chefssamtal-distansjobb",
+      "to": "http://localhost:3003/tjanster/samtal-leda-teams-pa-distans"
+    },
+    {
+      "from": "/fa-linkedin-att-jobba-for-dig/radgivning-linkedin",
+      "to": "http://localhost:3003/tjanster/samtal-linkedin"
+    },
+    {
+      "from": "/loneforhandling/radgivande-samtal-om-loneforhandling",
+      "to": "http://localhost:3003/tjanster/samtal-loneforhandling"
+    },
+    {
+      "from": "/byta-jobb/loneforhandla-pa-nytt-jobb-10-tips-for-att-fa-ratt-lon",
+      "to": "http://localhost:3003/discovery/loneforhandla-pa-nytt-jobb:-10-tips-for-att-fa-ratt-lon"
+    },
+    {
+      "from": "/anstallningsintervju/",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/maxa-2020-fa-en-battre-nystart",
+      "to": "http://localhost:3003/discovery/maxa-2020-fa-en-battre-nystart"
+    },
+    {
+      "from": "/skriva-jobbansokan/misstaget-nastan-alla-gor-i-sitt-personliga-brev/",
+      "to": "http://localhost:3003/discovery/misstaget-nastan-alla-gor-i-sitt-personliga-brev"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/nar-du-ar-kvar-och-kollegorna-varslas",
+      "to": "http://localhost:3003/discovery/nar-du-ar-kvar-och-kollegorna-varslas"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/nar-du-forverkligat-dina-drommar-men-anda-inte-ar-nojd",
+      "to": "http://localhost:3003/discovery/nar-du-natt-dina-drommar-men-anda-inte-nojd"
+    },
+    {
+      "from": "/byta-jobb/ta-steget-och-sag-upp-dig",
+      "to": "http://localhost:3003/discovery/ta-steget-och-sag-upp-dig"
+    },
+    {
+      "from": "/satt-din-riktning/radgivning-nasta-steg",
+      "to": "http://localhost:3003/tjanster/samtal-nasta-steg-i-jobblivet"
+    },
+    {
+      "from": "/driva-foretag/ny-som-konsult-sa-satter-du-ratt-pris-pa-ditt-arbete",
+      "to": "http://localhost:3003/discovery/ny-som-konsult-sa-satter-du-ratt-pris-pa-ditt-arbete"
+    },
+    {
+      "from": "/signup",
+      "to": "http://localhost:3003/"
+    },
+    {
+      "from": "/om-oss",
+      "to": "http://localhost:3003/om-oss"
+    },
+    {
+      "from": "/foretag/outplacement-och-snygga-avslut",
+      "to": "vd-blogg.se/individuellt-stod-i-forandring.pdf"
+    },
+    {
+      "from": "/planera-din-utveckling",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/plussa-pa-sluta-gora-listan",
+      "to": "http://localhost:3003/discovery/plussa-pa-and-sluta-gora-listan"
+    },
+    {
+      "from": "/om-oss/press",
+      "to": "http://localhost:3003/press-och-media"
+    },
+    {
+      "from": "/samtal-kampanj2/",
+      "to": "http://localhost:3003/tjanster/samtal-nasta-steg-i-jobblivet"
+    },
+    {
+      "from": "/samtal-kampanj1",
+      "to": "http://localhost:3003/tjanster/samtal-nasta-steg-i-jobblivet"
+    },
+    {
+      "from": "/sveriges-arkitekter/radgivande-samtal",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/loneforhandling/radgivande-samtal-infor-lonesamtal/",
+      "to": "http://localhost:3003/tjanster/samtal-loneforhandling"
+    },
+    {
+      "from": "/chefsradgivning",
+      "to": "http://localhost:3003/tjanster/samtal-chefsradgivning"
+    },
+    {
+      "from": "/affarsradgivning",
+      "to": "http://localhost:3003/tjanster/samtal-affarsradgivning"
+    },
+    {
+      "from": "/st/kampanj1",
+      "to": "https://gomonday.formstack.com/forms/kod_copy?Ptnr=2100&Campaign=1"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/researchsamtal-researcha-jobbet-du-vill-ha",
+      "to": "http://localhost:3003/discovery/researchsamtal:-kolla-upp-jobbet-du-vill-ha"
+    },
+    {
+      "from": "/byta-jobb/sa-ar-det-att-vara-chef",
+      "to": "http://localhost:3003/discovery/sa-ar-det-att-vara-chef-ar-det-ratt-for-dig"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/sa-beskriver-du-resultat",
+      "to": "http://localhost:3003/discovery/sa-beskriver-du-resultat"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/sa-beskriver-du-vart-du-ar-pa-vag",
+      "to": "http://localhost:3003/discovery/sa-beskriver-du-vart-du-ar-pa-vag"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/sa-far-du-bort-negativa-traffar-om-dig-i-google",
+      "to": "http://localhost:3003/discovery/sa-far-du-bort-negativa-traffar-om-dig-i-google"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/sa-far-du-en-bra-start-pa-jobblivet",
+      "to": "http://localhost:3003/discovery/sa-far-du-en-bra-start-pa-jobblivet"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/sa-far-du-forsta-chefsjobbet",
+      "to": "http://localhost:3003/discovery/sa-far-du-forsta-chefsjobbet"
+    },
+    {
+      "from": "/loneforhandling/",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/skriva-jobbansokan/sa-far-du-till-en-slagkraftig-story-om-dig-sjalv",
+      "to": "http://localhost:3003/discovery/sa-far-du-till-en-slagkraftig-story-om-dig-sjalv"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/sa-hanterar-du-luckor-i-ditt-cv",
+      "to": "http://localhost:3003/discovery/sa-hanterar-du-luckor-i-ditt-cv"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/presentera-dina-svagheter-intervju",
+      "to": "http://localhost:3003/discovery/sa-har-presenterar-du-dina-svagheter-vid-en-intervju"
+    },
+    {
+      "from": "/skriva-jobbansokan/sa-overvinner-du-angesten-for-att-skriva-om-dig-sjalv",
+      "to": "http://localhost:3003/discovery/sa-overvinner-du-angesten-for-att-skriva-om-dig-sjalv"
+    },
+    {
+      "from": "/byta-jobb/sa-satter-du-dig-snabbt-in-i-en-ny-bransch-nar-du-soker-jobb",
+      "to": "http://localhost:3003/discovery/sa-satter-du-dig-snabbt-in-i-en-ny-bransch-nar-du-soker-jobb"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/sa-snackar-du-till-dig-jobbet-du-vill-ha",
+      "to": "http://localhost:3003/discovery/sa-overtygar-du-andra-om-varfor-just-du-ar-ratt-person-for-jobbet"
+    },
+    {
+      "from": "/byta-jobb/sa-tolkar-du-platsannonsen",
+      "to": "http://localhost:3003/discovery/sa-tolkar-du-platsannonsen"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/sa-undviker-du-att-kanna-dig-som-den-bluff-du-inte-ar",
+      "to": "http://localhost:3003/discovery/sa-undviker-du-att-kanna-dig-som-den-bluff-du-inte-ar"
+    },
+    {
+      "from": "/byta-jobb/sa-undviker-du-daliga-arbetsgivare",
+      "to": "http://localhost:3003/discovery/sa-undviker-du-daliga-arbetsgivare"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/sa-valjer-du-ratt-kurs-eller-utbildning",
+      "to": "http://localhost:3003/discovery/sa-valjer-du-ratt-kurs-eller-utbildning"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/sa-vet-du-att-du-ar-bra-pa-ditt-jobb-eller-inte",
+      "to": "http://localhost:3003/discovery/sa-vet-du-att-du-ar-bra-pa-ditt-jobb-eller-inte"
+    },
+    {
+      "from": "/referenser",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/st/kampanj2",
+      "to": "https://gomonday.formstack.com/forms/kod_copy?Ptnr=2100&&Campaign=2"
+    },
+    {
+      "from": "/st/kampanj3",
+      "to": "https://gomonday.formstack.com/forms/kod_copy?Ptnr=2100&&Campaign=3"
+    },
+    {
+      "from": "/satt-din-riktning",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/skaffa-ett-jobb-i-sverige-for-dig-som-ar-expat",
+      "to": "http://localhost:3003/en/discovery/get-a-job-in-sweden-things-you-need-to-know"
+    },
+    {
+      "from": "/driva-foretag/skapa-fortroende-och-bygg-ditt-varumarke",
+      "to": "http://localhost:3003/discovery/skapa-fortroende-och-bygg-ditt-varumarke-2"
+    },
+    {
+      "from": "/driva-foretag/skapa-mer-tur-och-tillfalligheter",
+      "to": "http://localhost:3003/discovery/skapa-mer-tur-och-tillfalligheter-2"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/skapa-mer-tur-och-tillfalligheter",
+      "to": "http://localhost:3003/discovery/skapa-mer-tur-och-tillfalligheter"
+    },
+    {
+      "from": "/anstallningsintervju/skriftlig-intervjutraning",
+      "to": "http://localhost:3003/tjanster/feedback-intervjusvar"
+    },
+    {
+      "from": "/personligt-brev",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/cv",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/sluta-soka-jobb-borja-valja-jobb",
+      "to": "http://localhost:3003/discovery/sluta-soka-jobb-borja-valja-jobb"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/sok-jobb-2020-sa-lyckas-du-digitalt",
+      "to": "http://localhost:3003/discovery/sok-jobb-2020-sa-lyckas-du-digitalt"
+    },
+    {
+      "from": "/sok-jobb-pa-ratt-satt",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/soka-jobb/",
+      "to": "http://localhost:3003/"
+    },
+    {
+      "from": "/sok-jobb-pa-ratt-satt/radgivning-soka-jobb",
+      "to": "http://localhost:3003/tjanster/samtal-sokstrategi"
+    },
+    {
+      "from": "/skriva-jobbansokan/spontanansokan",
+      "to": "http://localhost:3003/discovery/spontanansokan"
+    },
+    {
+      "from": "/st/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=2100&Prd=10&Lang=Sv"
+    },
+    {
+      "from": "/radgivning-starka-position",
+      "to": "http://localhost:3003/tjanster/samtal-starka-positionen-internt"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/starta-eget-vid-sidan-om",
+      "to": "http://localhost:3003/discovery/starta-eget-vid-sidan-av-din-anstallning"
+    },
+    {
+      "from": "/driva-foretag/stick-ut-fran-mangden-med-en-stark-story",
+      "to": "http://localhost:3003/discovery/sa-far-du-till-en-slagkraftig-story-om-dig-sjalv"
+    },
+    {
+      "from": "/foretag/stod-i-vardag-och-i-tillvaxt",
+      "to": "vd-blogg.se/individuellt-stod-i-forandring.pdf"
+    },
+    {
+      "from": "/sample-page",
+      "to": "http://localhost:3003/"
+    },
+    {
+      "from": "/sveriges-arkitekter/",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/sveriges-ingenjorer/",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/guide/ta-fram-en-riktigt-bra-portfolio",
+      "to": "http://localhost:3003/tjanster/feedback-portfolio"
+    },
+    {
+      "from": "/portfolio",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/quiz/",
+      "to": "http://localhost:3003/"
+    },
+    {
+      "from": "/anstallningsintervju/muntlig-intervjutraning",
+      "to": "http://localhost:3003/tjanster/intervjutraning-telefon"
+    },
+    {
+      "from": "/trs/",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/unionen-egen/",
+      "to": "http://localhost:3003"
+    },
+    {
+      "from": "/byta-jobb/vad-ar-kompetens",
+      "to": "http://localhost:3003/discovery/vad-ar-kompetens"
+    },
+    {
+      "from": "/utvecklas-i-yrkeslivet/nar-trivs-vi-pa-jobbet",
+      "to": "http://localhost:3003/discovery/vad-gor-att-du-trivs-riktigt-bra-pa-jobbet"
+    },
+    {
+      "from": "/ladda-ner-linkedin",
+      "to": "http://localhost:3003/discovery/guide-fa-jobb-med-linkedin"
+    },
+    {
+      "from": "/om-oss/var-metod",
+      "to": "http://localhost:3003/var-metod"
+    },
+    {
+      "from": "/byta-jobb/varslad-sa-hanterar-du-dina-kanslor",
+      "to": "http://localhost:3003/discovery/varslad-sa-hanterar-du-dina-kanslor"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/varslad-sa-har-ska-du-agera",
+      "to": "http://localhost:3003/discovery/varslad-sa-har-ska-du-agera"
+    },
+    {
+      "from": "/ladda-ner-linkedin/tack/",
+      "to": "http://localhost:3003/discovery/guide-fa-jobb-med-linkedin"
+    },
+    {
+      "from": "/announcement/vi-hjalper-dig-till-nytt-jobb-hogre-lon-nya-utmaningar-9-av-10-rekommenderar-oss/",
+      "to": "http://localhost:3003/"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/vilka-ar-dina-drivkrafter",
+      "to": "http://localhost:3003/discovery/hitta-och-beskriv-dina-drivkrafter-2"
+    },
+    {
+      "from": "/versioner/",
+      "to": "http://localhost:3003/"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/vilket-rykte-skapar-du-i-sociala-medier",
+      "to": "http://localhost:3003/discovery/vilket-rykte-skapar-du-i-sociala-medier-2"
+    },
+    {
+      "from": "/driva-foretag/vilket-rykte-skapar-du-i-sociala-medier",
+      "to": "http://localhost:3003/discovery/vilket-rykte-skapar-du-i-sociala-medier"
+    },
+    {
+      "from": "/skriva-jobbansokan/visa-varfor-du-soker-jobb-hos-just-det-har-foretaget",
+      "to": "http://localhost:3003/discovery/visa-varfor-du-soker-jobb-hos-just-det-har-foretaget"
+    },
+    {
+      "from": "/vision/",
+      "to": "https://gomonday.formstack.com/forms/kod?Ptnr=1300&Prd=10&Lang=Sv"
+    },
+    {
+      "from": "/utvecklas-i-jobblivet/work-in-sweden-the-culture-the-workplace",
+      "to": "http://localhost:3003/en/discovery/work-in-sweden-the-culture-and-the-workplace"
+    }
+  ]
+}
