@@ -1,5 +1,4 @@
 const { nextI18NextRewrites } = require('next-i18next/rewrites')
-const path = require('path')
 
 const localeSubpaths = {
   en: 'en',
@@ -8,8 +7,6 @@ const localeSubpaths = {
 const env = require('dotenv').config({
   path: '.env',
 });
-
-console.log('next,config', path.resolve('./'));
 
 module.exports = {
   rewrites: async () => nextI18NextRewrites(localeSubpaths),
