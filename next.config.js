@@ -4,7 +4,7 @@ const localeSubpaths = {
   en: 'en',
 }
 
-module.exports = withBundleAnalyzer({
+module.exports = {
   rewrites: async () => nextI18NextRewrites(localeSubpaths),
   publicRuntimeConfig: {
     localeSubpaths,
@@ -16,4 +16,4 @@ module.exports = withBundleAnalyzer({
     API_REST_URL: res.parsed.API_REST_URL,
     PORT: res.parsed.PORT,
   },
-});
+}
