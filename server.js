@@ -6,9 +6,7 @@ const util = require('util');
 // Convert fs.readFile into Promise version of same
 const readFile = util.promisify(fs.readFile);
 
-require('dotenv').config({
-  path: `./.env.${process.env.ENV || 'development'}`,
-});
+require('dotenv').config({ path: `./.env` });
 
 const port = process.env.PORT || 3000;
 const app = next({
