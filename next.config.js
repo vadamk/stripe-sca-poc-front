@@ -5,8 +5,10 @@ const localeSubpaths = {
 }
 
 const env = require('dotenv').config({
-  path: `./.env'}`,
+  path: '.env',
 });
+
+console.log('env: ', env);
 
 module.exports = {
   rewrites: async () => nextI18NextRewrites(localeSubpaths),
