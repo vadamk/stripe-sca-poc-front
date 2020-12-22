@@ -1,12 +1,10 @@
 import React from 'react';
 import dynamic from 'next/dynamic'
-import { useTranslation, Link } from '../../i18n'
+import Link from 'next/link'
 
 const Layout = dynamic(() => import('../../components/Layout'))
 
 export default function Pokemon({ data }) {
-  const { t } = useTranslation();
-
   const artwork = React.useMemo(() => {
     return data?.sprites.other['official-artwork'].front_default;
   }, [data]); 
@@ -21,7 +19,7 @@ export default function Pokemon({ data }) {
       {artwork && <img width={200} src={artwork} alt={`${data?.name} artwork`} />}
       <br/>
       <Link href="/pokemon">
-        <a>🔙 {t('pokemon.title')}</a>
+        <a>🔙 Pokemons</a>
       </Link>
     </Layout>
   )

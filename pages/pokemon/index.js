@@ -1,14 +1,12 @@
 import React from 'react';
 import dynamic from 'next/dynamic'
-import { useTranslation, Link } from '../../i18n'
+import Link from 'next/link'
 
 const Layout = dynamic(() => import('../../components/Layout'))
 
 export default function PokemonList({ data }) {
-  const { t } = useTranslation();
-
   return (
-    <Layout title={t('pokemon.title')}>
+    <Layout title="Pokemons">
       {data.results.map(item => (
         <div key={item.name}>
           <Link href="/pokemon/[slug]" as={`/pokemon/${item.name}`}>

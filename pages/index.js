@@ -1,20 +1,18 @@
 import React from 'react';
 import dynamic from 'next/dynamic'
-import { Link, useTranslation } from '../i18n';
+import Link from 'next/link'
 
 const Layout = dynamic(() => import('../components/Layout'))
 
 export default function Home() {
-  const { t } = useTranslation();
-
   return (
     <Layout title="POC">
       <Link href="/pokemon">
-        <a>🦊 {t('pokemon.title')}</a>
+        <a>🦊 Pokemons</a>
       </Link>
       <br/>
       <Link href="/pay">
-        <a>💳 {t('pay.title')}</a>
+        <a>💳 Pay</a>
       </Link>
       <br/>
       <Link href="/logger">
