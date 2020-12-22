@@ -16,6 +16,10 @@ export default function Home() {
       <Link href="/pay">
         <a>💳 {t('pay.title')}</a>
       </Link>
+      <br/>
+      <Link href="/logger">
+        <a>📈 Logger</a>
+      </Link>
     </Layout>
   );
 };

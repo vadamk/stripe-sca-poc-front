@@ -16,12 +16,6 @@ const Layout = ({ title, children }) => {
         </main>
         <Footer />
       </div>
-      <style jsx global>{`
-        html, body {
-          margin: 0;
-          padding: 0;
-        }=
-      `}</style>
       <style jsx>{`
         .root {
           display: flex;
@@ -31,6 +25,7 @@ const Layout = ({ title, children }) => {
           height: 100vh;
           padding: 1rem;
           box-sizing: border-box;
+          background-color: #fefefe;
         }
         .root > * {
           width: 100%;

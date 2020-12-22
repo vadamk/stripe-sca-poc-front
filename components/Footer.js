@@ -20,6 +20,7 @@ const Footer = () => {
       <style jsx>{`
         .footer {
           display: flex;
+          padding: 15px 0;
         }
         .footer > * {
           display: block;
