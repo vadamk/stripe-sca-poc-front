@@ -147,7 +147,7 @@ export default function Logger() {
     {
       title: 'Value',
       field: 'value',
-      render: record => Number(record.value).toFixed(2),
+      render: record => +Number(record.value).toFixed(2),
     },
     {
       title: 'Created At',
@@ -172,9 +172,6 @@ export default function Logger() {
         text: 'First byte (seconds)'
       }
     },
-    // legend: {
-    //   enabled: true
-    // },
     plotOptions: {
       area: {
         marker: {
