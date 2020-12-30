@@ -8,6 +8,7 @@ import MaterialTable from 'material-table'
 import Highcharts from 'highcharts'
 import HighchartsReact from 'highcharts-react-official'
 import useDimensions from 'react-use-dimensions'
+import _ from 'lodash'
 
 import Select from '@material-ui/core/Select'
 import MenuItem from '@material-ui/core/MenuItem'
@@ -19,7 +20,7 @@ import CachedIcon from '@material-ui/icons/Cached'
 
 const Layout = dynamic(() => import('../../components/Layout'))
 
-const loggerURL = `${process.env.API_REST_URL}/logger`
+const loggerURL = `https://www.lysq.click/logger`
 
 const DATE_RANGES_OPTIONS = [
   {
@@ -51,9 +52,34 @@ const ENV_OPTIONS = [
   },
 ]
 
+const valueToSeconds = val => +Number(val / 1000).toFixed(2)
+
+const toDateNumber = date => +new Date(date)
+
 const recordsToPoints = records => records
-  .map(record => [(+new Date(record.createdAt)), +Number(record.value / 1000).toFixed(2)])
+  .map(record => [toDateNumber(record.createdAt), valueToSeconds(record.value)])
   .sort((p1, p2) => p1[0] - p2[0])
+
+const recordsToAveragePoints = records => {
+  const dateValuePoints = records
+    .map(record => ({
+      date: toDateNumber(moment(new Date(record.createdAt)).format("YYYY/MM/DD HH:30")),
+      value: valueToSeconds(record.value)
+    }))
+  
+  const uniqDates = _
+    .uniqBy(dateValuePoints, 'date')
+    .map(point => point.date)
+
+  return uniqDates.map(date => {
+    const dateValues = dateValuePoints
+      .filter(point => point.date === date)
+      .map(point => point.value)
+
+    const valuesSum = dateValues.reduce((sum, cur) => sum + cur, 0)
+    return [date, valuesSum / dateValues.length]
+  })
+}
 
 export default function Logger() {
   const [virginState, setVirginState] = React.useState(true)
@@ -105,6 +131,10 @@ export default function Logger() {
     return recordsToPoints(records) || []
   }, [records])
 
+  const averagePoints = React.useMemo(() => {
+    return recordsToAveragePoints(records) || []
+  }, [records])
+
   const columns = React.useMemo(() => [
     {
       title: 'Name',
@@ -132,7 +162,7 @@ export default function Logger() {
       width: pageSize.width
     },
     title: {
-      text: 'USD to EUR exchange rate over time'
+      text: 'First byte (s)'
     },
     xAxis: {
       type: 'datetime'
@@ -142,9 +172,9 @@ export default function Logger() {
         text: 'First byte (seconds)'
       }
     },
-    legend: {
-      enabled: false
-    },
+    // legend: {
+    //   enabled: true
+    // },
     plotOptions: {
       area: {
         marker: {
@@ -159,13 +189,21 @@ export default function Logger() {
         threshold: null
       }
     },
-    series: [{
-      type: 'area',
-      name: 'First byte (s)',
-      color: '#FF0000',
-      data: points,
-    }]
-  }), [points, pageSize]);
+    series: [
+      {
+        type: 'line',
+        name: 'First byte (s)',
+        color: '#FF0000',
+        data: points,
+      },
+      {
+        type: 'line',
+        name: 'First byte average (s)',
+        color: '#00FF00',
+        data: averagePoints,
+      },
+    ]
+  }), [points, averagePoints, pageSize]);
 
   const handleChangeName = React.useCallback(o => {
     setCurrentName(o.target.value)
